@@ -1,0 +1,243 @@
+.use_section{
+    .use_sectionTop{
+        display: flex;
+        gap: 84px;
+        background-color: rgb(33, 37, 41);
+
+        .container{
+          .use__sectionLeft{
+            padding-left:200px;
+            margin-top: 111px;
+            div{
+                h1{
+                    margin-bottom: 25px;
+                    color: rgb(243, 243, 243);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 29px;
+                    letter-spacing: 0%;
+                }
+                p{
+                    margin-bottom: 45px;
+                    color: rgb(243, 243, 243);
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                }
+                :last-child{
+                    display: flex;
+                    gap: 8px;
+                    p{
+                        color: rgb(4, 255, 20);
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0%;
+                    }
+                }
+            }
+          }  
+           
+        }
+        
+    }}
+
+
+    .use_sectionBottom{
+        display: flex;
+        background-color: rgb(33, 37, 41);
+        :last-child{
+           .use__sectionLeft{
+            padding: 99px 99px 0 99px;
+            div{
+                h1{
+                    margin-bottom: 25px;
+                    color: rgb(243, 243, 243);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 29px;
+                    letter-spacing: 0%;
+                }
+                p{
+                    margin-bottom: 45px;
+                    color: rgb(243, 243, 243);
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                }
+                :last-child{
+                    display: flex;
+                    gap: 8px;
+                    p{
+                        color: rgb(4, 255, 20);
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0%;
+                    }
+                }
+           }
+        }
+
+    }
+}
+.cards{
+    padding-top: 120px;
+    background-color: rgb(39, 43, 48);
+    .container{
+        display: flex;
+        gap: 20px;
+        .card{
+            background-color: rgb(33, 37, 41);
+            padding: 30px;
+            margin-bottom: 100px;
+            h1{
+                color: rgb(243, 243, 243);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29px;
+                letter-spacing: 0%;
+                margin-bottom: 10px;
+            }
+            p{
+                color: rgb(243, 243, 243);
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 130%;
+                letter-spacing: 0%;
+                margin-bottom: 20px;
+
+            }
+
+        }
+    }
+}
+
+.mission__sectionText{
+    padding-top: 104px;
+    padding-bottom: 104px;
+
+    h1{
+        color: rgb(243, 243, 243);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        margin-bottom: 15px;
+    }
+    p{
+        color: rgb(243, 243, 243);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 0%;
+    }
+}
+
+.mission__section{
+    background-image: url("../image/bg_img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.careers__section{
+    background-color: rgb(33, 37, 41);
+    .container{
+        .track__option{
+            display: flex;
+            padding: 100px;
+            justify-content: space-between;
+            :first-child{
+                h1{
+                    color: rgb(243, 243, 243);
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 44px;
+                    letter-spacing: 0%;
+                }
+                p{
+                    color: rgb(243, 243, 243);
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 29px;
+                    letter-spacing: 0%;
+                }
+            }
+            .track__text{
+                display: flex;
+                gap: 70px;
+                div{
+                    ul{
+                    list-style: square !important;
+                        li::marker{
+                            color: rgb(4, 255, 20);
+                        }
+                        li{
+                            color: rgb(243, 243, 243);
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 180%;
+                            letter-spacing: 0%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .driver__careers{
+            display: flex;
+            margin-bottom: 90px;
+            .driver__careersLeft{
+                padding: 100px 66px 0 120px;
+                background: rgb(82, 31, 132);
+                h1{
+                    color: rgb(243, 243, 243);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 180%;
+                    letter-spacing: 0%;
+                }
+                p{
+                    color: rgb(164, 102, 225);
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 180%;
+                    letter-spacing: 0%;
+                }
+                button{
+                    background-color: transparent;
+                    padding: 5px 8px;
+                    color: rgb(243, 243, 243);
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                    border-color: rgb(243, 243, 243);
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .partner__imgs{
+            padding-bottom: 90px;
+            h1{
+                text-align: center;
+                color: rgb(243, 243, 243);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 130%;
+                letter-spacing: 0%;
+                margin-bottom: 90px;
+                cursor: pointer;
+
+            }
+            :last-child{
+               
+                display: flex !important;
+                justify-content: space-between;
+            }
+        }
+    }
+}
